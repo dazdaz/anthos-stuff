@@ -3,6 +3,7 @@
 # Excellent example of using Anthos Connect gateway in a multi-cloud setup
 # https://twitter.com/rseroter/status/1376925282079100936
 
+```
 multi-cloudbuid.yaml
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
@@ -25,3 +26,4 @@ steps:
   export KUBECONFIG="$(pwd)/gateway/kubeconfig" && \
   gcloud beta container hub memberships get-credentials cluster-mine-kind-cluster && \
   kubectl --kubeconfig gateway-kubeconfig apply -f generic-deployment.yaml
+```
