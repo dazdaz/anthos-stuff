@@ -1,7 +1,5 @@
-# anthos_stuff
-
-# Excellent example of using Anthos Connect gateway in a multi-cloud setup
-# https://twitter.com/rseroter/status/1376925282079100936
+## Excellent example of using Anthos Connect gateway in a multi-cloud setup
+### https://twitter.com/rseroter/status/1376925282079100936
 
 ```
 multi-cloudbuid.yaml
